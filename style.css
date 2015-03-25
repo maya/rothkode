@@ -1,0 +1,90 @@
+.ro {
+  width: 500px;
+  height: 550px; 
+  margin: 0 auto; 
+  margin-top: 50px;  
+}
+#one {
+  background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(242,114,97,1) 41%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(196,37,25,1) 100%);
+}
+
+#two {
+  background: linear-gradient(to bottom, rgba(255,185,141,1) 0%, rgba(255,185,141,1) 33%, rgba(242,190,153,1) 38%, rgba(249,120,105,1) 44%, rgba(249,82,90,1) 49%, rgba(224,81,45,1) 55%, rgba(175,82,39,1) 62%, rgba(175,82,39,1) 100%);
+}
+
+#three {
+ background: linear-gradient(to bottom, rgba(72,22,33,1) 0%, rgba(72,22,33,1) 14%, rgba(52,16,32,1) 43%, rgba(38,39,93,1) 46%, rgba(57,87,178,1) 49%, rgba(57,87,178,1) 65%, rgba(53,49,81,1) 73%, rgba(53,49,81,1) 100%); 
+ box-shadow: inset 0px 0px 10px 15px rgba(42,45,102,1);
+}
+
+#four {
+  background: linear-gradient(to bottom, rgba(148,44,28,1) 0%, rgba(197,52,36,1) 8%, rgba(214,60,43,1) 34%, rgba(197,52,36,1) 57%, rgba(33,27,50,1) 75%, rgba(33,27,50,1) 100%);
+  box-shadow: inset 0px -8px 5px 17px rgba(61,34,43,1);
+}
+
+#five {
+  background: linear-gradient(to bottom, rgba(230,148,4,1) 0%, rgba(244,176,3,1) 5%, rgba(244,176,3,1) 29%, rgba(234,139,4,1) 38%, rgba(215,48,6,1) 48%, rgba(215,48,6,1) 100%);
+  box-shadow: inset 0px 8px 8px 25px rgba(220,107,4,1);
+}
+
+#six {
+  background: linear-gradient(to bottom, rgba(99,149,171,1) 0%, rgba(201,82,120,1) 4%, rgba(222,89,144,1) 38%, rgba(201,82,120,1) 41%, rgba(40,46,57,1) 46%, rgba(43,53,71,1) 86%, rgba(37,43,54,1) 96%, rgba(178,130,67,1) 98%, rgba(118,160,122,1) 100%);
+}
+
+#seven {
+  background: linear-gradient(to bottom, rgba(222,47,114,1) 0%, rgba(240,70,169,1) 12%, rgba(240,70,169,1) 53%, rgba(253,169,95,1) 59%, rgba(253,169,95,1) 64%, rgba(249,39,32,1) 70%, rgba(249,39,32,1) 100%);
+  box-shadow: -1px -7px 13px 7px rgba(244, 167, 93, 1) inset;
+}
+
+#eight {
+  background: linear-gradient(to bottom, rgba(41,58,186,1) 0%, rgba(41,58,186,1) 4%, rgba(68,40,121,1) 7%, rgba(219,73,180,1) 19%, rgba(237,113,233,1) 47%, rgba(219,73,180,1) 58%, rgba(68,40,121,1) 64%, rgba(41,58,186,1) 65%, rgba(68,40,121,1) 66%, rgba(247,145,169,1) 68%, rgba(226,74,94,1) 98%, rgba(41,58,186,1) 100%);
+}
+#nine {
+  background: linear-gradient(to bottom, rgba(233,239,235,1) 0%, rgba(233,239,235,1) 3%, rgba(153,189,219,1) 7%, rgba(199,224,237,1) 46%, rgba(175,203,224,1) 73%, rgba(106,140,163,1) 84%, rgba(93,127,150,1) 100%);
+  box-shadow: inset -3px 3px 13px 18px rgba(244,245,239,1);
+}
+#ten {
+  background: linear-gradient(to bottom, rgba(212,145,11,1) 0%, rgba(212,145,11,1) 1%, rgba(136,106,6,1) 11%, rgba(5,8,1,1) 13%, rgba(15,64,177,1) 15%, rgba(15,64,177,1) 66%, rgba(5,8,1,1) 68%, rgba(247,144,10,1) 71%, rgba(233,111,4,1) 93%, rgba(233,111,4,1) 100%);
+  box-shadow: inset 0px -12px 11px 3px rgba(255,192,7,.9);
+}
+
+.grid {
+  text-align: center;
+}
+
+/* make a grid */
+
+[class*='col-'] {
+  float: left;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid {
+  margin-left: -10px;
+  margin-right: -10px;  
+}
+[class*='col-'] {
+  padding-left: 10px;
+  padding-right: 10px;
+}    
+.col-half {
+  width: 50%;
+}
+.col-third {
+  width: 33.33%;
+}
+.col-two-thirds {
+  width: 66.66%;
+}
+.col-fourth {
+  width: 25%;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+  position: relative;
+}
