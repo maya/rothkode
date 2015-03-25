@@ -114,6 +114,11 @@ p {
   text-align: center;
 }
 
+footer {
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
 /* make a grid */
 
 [class*='col-'] {
