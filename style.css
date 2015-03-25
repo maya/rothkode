@@ -61,7 +61,7 @@ p {
   line-height: 1.6;
 }
 .ro {
-  width: 500px;
+  max-width: 500px;
   height: 550px; 
   margin: 0 auto; 
   margin-top: 50px;  
