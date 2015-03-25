@@ -179,4 +179,10 @@ footer {
     width: 100%;
     max-height: 65vh;
   }
+  header {
+    margin-top: 15px;
+  }
+  #one {
+    margin-top: 25px;
+  }
 }
