@@ -167,3 +167,16 @@ footer {
   padding: 0 22px;
   position: relative;
 }
+
+@media all and (max-width: 550px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .ro {
+    width: 100%;
+    max-height: 65vh;
+  }
+}
