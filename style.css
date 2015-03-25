@@ -60,6 +60,18 @@ h1 {
 p {
   line-height: 1.6;
 }
+
+a {
+  border-bottom: 2px solid rgba(212, 80, 210, 0.2);
+  color: #d450d2;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #456fdb;
+  color: #456fdb;
+}
+
 .ro {
   max-width: 500px;
   height: 550px; 
