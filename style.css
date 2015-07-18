@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -74,9 +74,9 @@ a:hover {
 
 .ro {
   max-width: 500px;
-  height: 550px; 
-  margin: 0 auto; 
-  margin-top: 50px;  
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 #one {
   background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(242,114,97,1) 41%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(196,37,25,1) 100%);
@@ -86,8 +86,8 @@ a:hover {
   background: linear-gradient(to bottom, rgba(255,185,141,1) 0%, rgba(255,185,141,1) 33%, rgba(242,190,153,1) 38%, rgba(249,120,105,1) 44%, rgba(249,82,90,1) 49%, rgba(224,81,45,1) 55%, rgba(175,82,39,1) 62%, rgba(175,82,39,1) 100%);
 }
 
-#three {
- background: linear-gradient(to bottom, rgba(72,22,33,1) 0%, rgba(72,22,33,1) 14%, rgba(52,16,32,1) 43%, rgba(38,39,93,1) 46%, rgba(57,87,178,1) 49%, rgba(57,87,178,1) 65%, rgba(53,49,81,1) 73%, rgba(53,49,81,1) 100%); 
+#no_61 {
+ background: linear-gradient(to bottom, rgba(53,49,81,1) 5%, rgba(53,49,81,1) 31%, rgba(57,87,178,1) 34%, rgba(57,87,178,1) 56%, rgba(38,39,93,1) 58%, rgba(52,16,32,1) 61%, rgba(72,22,33,1) 89%, rgba(72,22,33,1) 100%);
  box-shadow: inset 0px 0px 10px 15px rgba(42,45,102,1);
 }
 
@@ -143,12 +143,12 @@ footer {
 }
 .grid {
   margin-left: -10px;
-  margin-right: -10px;  
+  margin-right: -10px;
 }
 [class*='col-'] {
   padding-left: 10px;
   padding-right: 10px;
-}    
+}
 .col-half {
   width: 50%;
 }
